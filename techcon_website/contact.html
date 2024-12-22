@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | TechCon 2024</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Contact Us - TechCon 2024</title>
 </head>
 <body>
-
     <!-- Header Section -->
     <header>
         <h1>Contact Us</h1>
@@ -21,53 +19,57 @@
         </nav>
     </header>
 
-    <!-- Main Content Section -->
+    <!-- Main Section -->
     <main>
         <h2>Get in Touch</h2>
-        <p>If you have any questions or need further information, feel free to reach out to us!</p>
-
-        <!-- Contact Information Section -->
+        
+        <!-- Contact Information -->
         <section>
-            <h3>Our Contact Information</h3>
-            <p>Email: <a href="mounaimrahmani9@gmail.com">mounaimrahmani9@gmail.com</a></p> <!-- Fixed mailto link -->
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:mounaimrahmani90@gmail.com">mounaimrahmani90@gmail.com</a></p>
             <p>Follow us on social media:</p>
             <ul>
-                <li><a href="https://facebook.com/TechCon2024" target="_blank">Facebook</a></li>
-                <li><a href="https://twitter.com/TechCon2024" target="_blank">Twitter</a></li>
-                <li><a href="https://linkedin.com/company/TechCon2024" target="_blank">LinkedIn</a></li>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
             </ul>
         </section>
 
         <!-- Embedded Google Map -->
         <section>
-            <h3>Conference Venue</h3>
+            <h3>Venue Location</h3>
             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.909315946069!2d-122.41941568468174!3d37.7749297797591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808581e358d8c7f7%3A0x539dc1be78ab7c1f!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1610539821450!5m2!1sen!2sus"
-                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509678!2d-122.42101368468132!3d37.77492927975914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064df9c5f47%3A0x98af1f6d1b4e5f13!2sSan%20Francisco%20City%20Hall!5e0!3m2!1sen!2sus!4v1616525672437!5m2!1sen!2sus" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
         </section>
 
         <!-- Contact Us Form -->
         <section>
             <h3>Send Us a Message</h3>
-            <form action="/submit-message" method="POST">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required placeholder="Enter your name">
-
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" required placeholder="Enter your email address">
-
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" required placeholder="Write your message here"></textarea>
-
-                <button type="submit">Send Message</button>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
             </form>
         </section>
     </main>
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 TechCon. All rights reserved.</p>
+        <p>&copy; 2024 TechCon. All rights reserved. This page is protected by copyright law.</p>
     </footer>
-
 </body>
 </html>
